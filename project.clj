@@ -1,6 +1,6 @@
 (defproject do-clojure-web "0.1.0"
   :description "do-clojure-web: sample web app for deployment test"
-  :url "http://example.com/do-clojure-web"
+  :url "https://github.com/chadhs/do-clojure-web"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [compojure "1.3.1"]
