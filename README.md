@@ -1,6 +1,9 @@
 # do-clojure-web
 
-This is a sample Clojure web app for deployment testing.
+This is a sample Clojure web app for deployment testing for these two articles I wrote:
+
+<https://www.digitalocean.com/community/tutorials/how-to-deploy-a-clojure-web-application-on-freebsd-10-2>
+<https://www.digitalocean.com/community/tutorials/how-to-deploy-a-clojure-web-application-on-ubuntu-14-04>
 
 ## Prerequisites
 
