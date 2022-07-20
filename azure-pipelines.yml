@@ -28,4 +28,4 @@ stages:
         tags: |
           $(tag)
         containerRegistry: 'DockerHUB'
-        repository: 'public-01'
+        repository: 'mm3681525/public-01'
