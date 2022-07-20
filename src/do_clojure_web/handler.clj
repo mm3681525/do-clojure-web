@@ -33,6 +33,6 @@
   (let [port (Integer. (or port
                            (System/getenv "PORT")
                            5000))]
-    (jetty/run-jetty #'app {:host  "127.0.0.1"
+    (jetty/run-jetty #'app {:host  "0.0.0.0"
                             :port  port
                             :join? false})))
