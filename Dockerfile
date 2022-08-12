@@ -2,6 +2,7 @@
 FROM clojure:lein AS builder
 COPY . /usr/src/app
 WORKDIR /usr/src/app
+RUN lein test
 RUN lein uberjar
 
 FROM openjdk:17-alpine
