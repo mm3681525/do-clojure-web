@@ -29,3 +29,7 @@ stages:
           $(tag)
         containerRegistry: 'DockerHUB'
         repository: 'mm3681525/public-01'
+    - task: PublishTestResults@2
+      inputs:
+        testResultsFormat: 'JUnit'
+        testResultsFiles: '**/TEST-*.xml'
